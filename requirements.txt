@@ -1,0 +1,13 @@
+python-dotenv
+streamlit
+chromadb
+langchain
+langchain-community
+langchain-chroma
+langchain-ollama
+langchain-google-genai
+pymysql
+beautifulsoup4
+lxml
+tqdm
+streamlit-option-menu
