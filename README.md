@@ -1,29 +1,5 @@
-# README #
+# Sitemap RAG #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Sitemap RAG is a retrieval-augmented generation (RAG) pipeline that enables question-answering and semantic search over a website’s content by leveraging the site’s sitemap. By crawling a website’s sitemap (an XML index of all pages) and embedding the page contents into a vector database, Sitemap RAG allows you to query or chat with an LLM using the website’s own content as context. This leads to more specific and grounded answers than a general search engine can provide, making it useful for building FAQ chatbots, documentation assistants, or support agents tailored to a particular site.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Architecture Overview ###
